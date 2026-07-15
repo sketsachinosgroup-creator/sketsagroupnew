@@ -1,5 +1,7 @@
 import mbejajiPreview from "./assets/images/mbejaji_portfolio_preview_1784102642357.jpg";
 import biruMotorPreview from "./assets/images/biru_motor_preview_1784103262238.jpg";
+import mitraHukumPreview from "./assets/images/mitra_hukum_preview_1784122703859.jpg";
+import sejoliMemberPreview from "./assets/images/sejoli_member_preview_1784122722071.jpg";
 import { ServiceData, PortfolioItem, SocialProofItem } from "./types";
 
 export const IMAGES = {
@@ -767,7 +769,7 @@ export const jx: PortfolioItem[] = [
     title: "Cozy Foam Shoe Cleaner",
     description: "Landing page penjualan produk pembersih sepatu premium dengan formulir order interaktif terintegrasi WhatsApp checkout dan video demo produk berkonversi tinggi.",
     clientName: "Cozy Foam Indonesia",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+    image: IMAGES.cozyShoesCare,
     category: "landing-page",
     techStack: ["React", "Tailwind CSS", "Motion", "WhatsApp API"],
     liveUrl: "https://sketsagroup.xyz/portfolio/cozy-foam",
@@ -778,7 +780,7 @@ export const jx: PortfolioItem[] = [
     title: "Mitra Hukum Legalindo",
     description: "Website company profile profesional untuk firma hukum nasional. Dilengkapi sistem penjadwalan konsultasi, direktori pengacara, dan blog hukum SEO-friendly.",
     clientName: "Mitra Hukum Corp",
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+    image: mitraHukumPreview,
     category: "company-profile",
     techStack: ["React", "TypeScript", "Tailwind", "Framer Motion"],
     liveUrl: "https://sketsagroup.xyz/portfolio/mitra-hukum",
@@ -789,7 +791,7 @@ export const jx: PortfolioItem[] = [
     title: "Sejoli Premium Membership",
     description: "Platform kursus online dan manajemen affiliate mandiri menggunakan framework modern. Fitur komisi multi-tier, penarikan dana otomatis, dan materi video terproteksi.",
     clientName: "Sejoli Learning Center",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+    image: sejoliMemberPreview,
     category: "custom-app",
     techStack: ["Next.js", "Tailwind CSS", "PostgreSQL", "Sejoli Engine"],
     liveUrl: "https://sketsagroup.xyz/portfolio/sejoli-affiliate",
