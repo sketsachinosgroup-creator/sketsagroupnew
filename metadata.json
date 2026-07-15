@@ -1,0 +1,6 @@
+{
+  "name": "Sketsa Group",
+  "description": "Recreation of the Sketsa Group official website with portfolio enhancements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
